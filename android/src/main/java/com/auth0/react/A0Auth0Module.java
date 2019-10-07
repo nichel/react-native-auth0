@@ -2,12 +2,11 @@
 package com.auth0.react;
 
 import android.app.Activity;
-import android.app.PendingIntent;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Handler;
-import android.support.annotation.NonNull;
-import android.support.customtabs.CustomTabsIntent;
+import androidx.annotation.NonNull;
+import androidx.browser.customtabs.CustomTabsIntent;
 import android.util.Base64;
 
 import com.facebook.react.bridge.Arguments;
